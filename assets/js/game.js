@@ -1,5 +1,6 @@
 /* GAME FUNCTIONS */
 
+
 // function to generate a random numeric value
 var randomNumber = function(min, max) {
   var value = Math.floor(Math.random() * (max - min + 1) + min);
@@ -217,6 +218,11 @@ var enemyInfo = [
     attack: randomNumber(10, 14)
   }
 ];
+console.log(enemyInfo);
+console.log(enemyInfo[0]);
+console.log(enemyInfo[0].name);
+console.log(enemyInfo[0]['attack']);
+
 console.log(enemyInfo);
 console.log(enemyInfo[0]);
 console.log(enemyInfo[0].name);
